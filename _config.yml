@@ -1,0 +1,40 @@
+# GitHub Pages Configuration for CoNavigator
+# https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll
+
+# Theme
+theme: jekyll-theme-cayman
+
+# Site Settings
+title: CoNavigator
+description: Real-Time Risk Assessment & AI Coaching for Adventure Motorcycle Riders
+baseurl: ""
+url: ""
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+
+# Kramdown Settings (for better code blocks)
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: false
+
+# Exclude files from build
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - .gitignore
+  - "*.py"
+  - "*.pyc"
+  - __pycache__
+  - .venv
+  - data/
+  - tests/
+  - scripts/
