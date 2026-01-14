@@ -84,7 +84,7 @@ All rides, telemetry samples, and coaching notes are stored in SQLite for histor
 
 The following diagram illustrates how CoNavigator's components interact:
 
-![System Architecture](system-architecture.png)
+[![System Architecture](system-architecture.png)](system-architecture.png)
 
 ```mermaid
 flowchart TB
@@ -154,7 +154,7 @@ flowchart TB
 
 This sequence diagram shows the full lifecycle of a ride session:
 
-![Complete Ride Session Flow](ride-session-flow.png)
+[![Complete Ride Session Flow](ride-session-flow.png)](ride-session-flow.png)
 
 ```mermaid
 sequenceDiagram
@@ -248,7 +248,7 @@ Without a GPX file, CoNavigator operates in **reactive mode**:
 
 ### The Risk Engine Flowchart
 
-![Risk Calculation Engine](risk-calculation-engine.png)
+[![Risk Calculation Engine](risk-calculation-engine.png)](risk-calculation-engine.png)
 
 ```mermaid
 flowchart TD
